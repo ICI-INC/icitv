@@ -8,6 +8,7 @@
 </head>
 <body>
   <div class="nav" id="nav">
+    <img class="nav_logo" width="100" src="img.logo/ici.png">
   </div>
   
   <header class="banner">
@@ -104,7 +105,16 @@
     </div>
   </div>
 
-  
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', ()=>{
+      if(window.scrollY >= 100){
+          nav.classList.add('nav_black');
+      } else {
+          nav.classList.remove('nav_black');
+      }
+    })
+  </script>
 
 </body>
 </html>
