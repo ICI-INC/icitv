@@ -74,8 +74,8 @@ body{
     width: 100%;
     object-fit: contain;
     max-height: 100px;
-    margin-right: 10px;
     transition: transform 450ms;
+    margin-left: 800px;
 }
 .row_posters{
     display: flex;
@@ -86,10 +86,11 @@ body{
 }
 .row_poster:hover{
     transform: scale(1.08);
+    box-shadow: 0 0 12px 5px white;
 }
 .row_posterLerge{
-    max-height: 250px;
-    margin-left: 1%;
+    max-height: 220px;
+    max-width: 220px;
 }
 .row_posterLerge:hover{
     transform: scale(1.09);
