@@ -73,8 +73,8 @@ body{
 .row_poster{
     width: 100%;
     object-fit: contain;
-    max-height: 80px;
-    margin-right: 10px;
+    max-height: 100px;
+    margin-right: center;
     transition: transform 450ms;
 }
 .row_posters{
