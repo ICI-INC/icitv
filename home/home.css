@@ -12,7 +12,7 @@ body{
 .nav{
     position: fixed;
     top: 0;
-    width: 448%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -26,7 +26,7 @@ body{
     background-position: center center;
     color: black;
     object-fit: contain;
-    height: 300px;
+    height: 448px;
 }
 .banner_contents{
     margin-left: 30px;
@@ -74,7 +74,7 @@ body{
     width: 100%;
     object-fit: contain;
     max-height: 100px;
-    margin-right: 50px;
+    margin-right: 10px;
     transition: transform 450ms;
 }
 .row_posters{
@@ -89,6 +89,7 @@ body{
 }
 .row_posterLerge{
     max-height: 250px;
+    margin-left: 1%;
 }
 .row_posterLerge:hover{
     transform: scale(1.09);
