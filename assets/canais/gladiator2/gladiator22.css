@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(fundo.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+body{
+    margin-left: 30%;
+    margin-top: 2%;
+}
+iframe{
+    margin-top: 1%;
+}
+.banner_button{
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+.banner_button:hover{
+    color:#000;
+    background-color: #e6e6e6;
+    transition:all 0.2s;
+}
