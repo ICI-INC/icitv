@@ -21,7 +21,7 @@ body{
     transition: all 0.5s;
 }
 .banner{
-    background-image: url('Eternals\ 2021.jpg');
+    background-image: url('imagens/banner.ici/bannerICI.jpg');
     background-size: cover;
     background-position: center center;
     color: beige;
